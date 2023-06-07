@@ -52,7 +52,7 @@ main {
 
 section#login {
     background-color: white;
-    width: 280px;
+    width: 300px;
     height: 500px;
     border-radius: 20px;
     position: absolute;
@@ -84,4 +84,19 @@ section#login > div#formulario > h1{
 section#login > div#formulario > p{
     font-size: 0.8em;
     padding: 10px;
+}
+form > input#entrar{
+    display: block;
+    margin: auto;
+    font-size: 1em;
+    width: 90%;
+    height: 40px;
+    background-color: #0AF2B1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form > input#entrar:hover{
+    background-color: #07926b;
 }
