@@ -1,3 +1,14 @@
+/* 
+
+TYPICAL DEVICE BREAKPOINT
+Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more.
+
+*/
+
 @charset "UTF-8";
 
 /* 
@@ -40,6 +51,7 @@ section#login{
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.801);
+    transition: width 0.3s, height 0.3s;
 }
 section#login > div#imagem{
     background: url(../imgens/pexels-neo-2653362.jpg), no-repeat;

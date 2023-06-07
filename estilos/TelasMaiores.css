@@ -1,0 +1,29 @@
+:root{
+    --Azul1: #1473E6;
+    --Azul2: #0AF2B1;
+    --Azul3: #0AD9FC;
+}
+@media screen and (min-width: 769px) and (max-width: 1000px){
+    section#login{
+        width: 80vw;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
+@media screen and (min-width:1001px){
+    section#login{
+        width: 990px;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+}
