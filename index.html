@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/MainStyle.css">
     <link rel="stylesheet" href="estilos/TelasMaiores.css">
@@ -15,9 +16,20 @@
 
             </div>
             <div id="formulario">
-                <h1>Seja bem vindo (a)</h1>
-                <p>Preencha os dados para poder acessar sua conta.</p>
-                <form action="login.php" method="post">
+                <h1>Login</h1>
+                <p>Seja bem vindo (a). Preencha os dados para poder acessar sua conta.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="LoginArea">
+                        <span class="material-symbols-outlined">person</span>
+                        <input type="email" name="login" id="iemail" placeholder="Digite seu E-mail..." autocomplete="email" required>
+                        <label for="iemail">E-mail:</label>
+                    </div>
+                    <div class="LoginArea">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="login" id="isenha" placeholder="Digite sua senha..." autocomplete="current-password" required minlength="8">
+                        <label for="isenha">Senha:</label>
+                    </div>
+                    <input type="submit" value="Entrar">
                     
                 </form>
             </div>
