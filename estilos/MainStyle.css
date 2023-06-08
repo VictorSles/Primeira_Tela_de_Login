@@ -85,7 +85,28 @@ section#login > div#formulario > p{
     font-size: 0.8em;
     padding: 10px;
 }
-form > input#entrar{
+form div.LoginArea{
+    display: block;
+    width: 95%;
+    background-color: #07926b;
+    border-radius: 5px;
+    margin: 5px 2px;
+    height: 40px;
+    overflow: hidden;
+}
+div.LoginArea > label{
+    display: none;
+}
+div.LoginArea > input{
+    background-color: #6ec2e6;
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+    padding: 4px;
+    width: calc(100% - 44px);
+    transform: translateY(-12px);
+}
+form > input[type=submit]{
     display: block;
     margin: auto;
     font-size: 1em;
@@ -99,4 +120,11 @@ form > input#entrar{
 }
 form > input#entrar:hover{
     background-color: #07926b;
+}
+div.LoginArea > span{
+    color: white;
+    padding: 5px;
+    width: 40px;
+    font-size: 2em;
+
 }
